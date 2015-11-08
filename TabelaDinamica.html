@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+	  <link rel="stylesheet" href="css/tabela.css"/>
+	  <script src="script/calcula-imc.js"></script>
+   </head>
+   <body>
+      <h1>Lista de Pacientes</h1>
+	  <table>
+		<tbody id="corpoTabela">  
+			<tr>
+				<th>Nome</th>
+				<th>Peso</th>
+				<th>Altura</th>
+				<th>Cálculo do IMC</th>
+			</tr>
+		</tbody>	
+	  </table>
+	  
+	  <div id="cadastro">
+		<h1>Cadastro de Pacientes</h1>
+	  	<label for="nomePaciente" id="nome">Nome: <input type="text" id="nomePaciente"></label>
+		<label for="pesoPaciente" id="peso">Peso: <input type="text" id="pesoPaciente"></label>
+		<label for="alturaPaciente" id="altura">Altura: <input type="text" id="alturaPaciente"></label>	
+		<p class="botao"><input type="button" value="Cadastrar" id="cadastrar"></p>
+	  </div>
+	  
+   </body>
+</html>
